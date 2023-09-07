@@ -10,6 +10,9 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - echo Jest running...
+      - sleep 1m
+      - echo Jest done on `date`
   post_build:
     commands:
       - echo Build completed on `date`
